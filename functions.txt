@@ -18,3 +18,8 @@ const areCoprimes = (num1, num2) => {
    };
    return true;
 };
+
+
+//separate a string into characters and numbers in separate variables
+let nums = s.replace(/\D/g, "")
+let chars = s.replace(/[^a-z]/gi, "");
